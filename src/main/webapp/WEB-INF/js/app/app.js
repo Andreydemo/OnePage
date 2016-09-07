@@ -17,6 +17,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                       templateUrl: '/resources/js/login/login.main.template.html',
                       controller: 'LoginController'
                   })
+                  .state('login.reg', {
+                                        url: '/registration',
+                                        templateUrl: '/resources/js/login/registration.main.template.html',
+                                        controller: 'LoginController'
+                                    })
 
          // nested list with custom controller
          .state('home.list', {
