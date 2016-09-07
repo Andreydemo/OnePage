@@ -37,6 +37,7 @@ class AppConfiguration extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/resources/js/**").addResourceLocations("/WEB-INF/js/");
         registry.addResourceHandler("/resources/angular/**").addResourceLocations("/WEB-INF/js/angular/");
         registry.addResourceHandler("/resources/html/**").addResourceLocations("/WEB-INF/html/");
+        registry.addResourceHandler("/resources/image/**").addResourceLocations("/WEB-INF/image/");
         super.addResourceHandlers(registry);
     }
 }
