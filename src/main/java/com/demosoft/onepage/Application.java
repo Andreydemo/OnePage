@@ -32,7 +32,7 @@ class AppConfiguration extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.setOrder(-1);
+        //registry.setOrder(-1);
         registry.addResourceHandler("/resources/css/**").addResourceLocations("/WEB-INF/css/");
         registry.addResourceHandler("/resources/js/**").addResourceLocations("/WEB-INF/js/");
         registry.addResourceHandler("/resources/angular/**").addResourceLocations("/WEB-INF/js/angular/");

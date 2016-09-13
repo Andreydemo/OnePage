@@ -76,6 +76,18 @@ a { color: #d04764; font-family: 'Original Surfer', cursive; }
 a:hover { text-decoration: underline }
 
 
+.container{
+     max-width: 1000px;
+     font-family: Georgia, "Times New Roman", Times, serif;
+      margin: 10px auto;
+}
+
+.background{
+      padding: 10px 20px;
+      border-radius: 8px;
+      background: #f4f7f8;
+}
+
 
 .form-style-5{
     max-width: 500px;
