@@ -32,13 +32,13 @@ class AppConfiguration extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        //registry.setOrder(-1);
-        registry.addResourceHandler("/resources/css/**").addResourceLocations("/WEB-INF/css/");
-        registry.addResourceHandler("/resources/js/**").addResourceLocations("/WEB-INF/js/");
-        registry.addResourceHandler("/resources/angular/**").addResourceLocations("/WEB-INF/js/angular/");
-        registry.addResourceHandler("/resources/html/**").addResourceLocations("/WEB-INF/html/");
-        registry.addResourceHandler("/resources/image/**").addResourceLocations("/WEB-INF/image/");
-        System.out.println("ALLIVE!!!!!!!!!!!!!!");
+       /* registry.setOrder(-1);
+        registry.addResourceHandler("/resources/css*//**").addResourceLocations("/WEB-INF/css/");
+        registry.addResourceHandler("/resources/js*//**").addResourceLocations("/WEB-INF/js/");
+        registry.addResourceHandler("/resources/angular*//**").addResourceLocations("/WEB-INF/js/angular/");
+        registry.addResourceHandler("/resources/html*//**").addResourceLocations("/WEB-INF/html/");
+        registry.addResourceHandler("/resources/image*//**").addResourceLocations("/WEB-INF/image/");
+        System.out.println("ALLIVE!!!!!!!!!!!!!!");*/
         super.addResourceHandlers(registry);
     }
 }
